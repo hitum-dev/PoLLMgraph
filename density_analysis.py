@@ -1,5 +1,5 @@
-from luna.metrics_appeval_collection import MetricsAppEvalCollections as Metrics
-import luna.data_loader as data_loader
+from pollmgraph.metrics_appeval_collection import MetricsAppEvalCollections as Metrics
+import pollmgraph.data_loader as data_loader
 
 from types import SimpleNamespace
 import matplotlib.pyplot as plt

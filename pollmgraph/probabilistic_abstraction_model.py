@@ -1,4 +1,4 @@
-from luna.utils.interfaces import load_lists
+from pollmgraph.utils.interfaces import load_lists
 from hmmlearn import hmm
 import numpy as np
 from sklearn import metrics

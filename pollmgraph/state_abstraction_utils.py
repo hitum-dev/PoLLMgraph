@@ -1,5 +1,5 @@
-from luna.abstraction_model import GMM, KMeans, RegularGrid
-import luna.data_loader as data_loader
+from pollmgraph.abstraction_model import GMM, KMeans, RegularGrid
+import pollmgraph.data_loader as data_loader
 import numpy as np
 from tqdm import tqdm
 from sklearn.decomposition import PCA
