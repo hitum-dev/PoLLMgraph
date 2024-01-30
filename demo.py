@@ -24,16 +24,16 @@ result_save_path = "../../../data/llmAnalysis/songda"
 extract_block_idx = 31
 info_type = "hidden_states"
 abstraction_method = "KMeans"
-model_type = "MM"
+model_type = "MM" # "hmm"
 hmm_n_comp = 100
 abstract_state_num = 400
 pca_dim = 2048
 grid_history_dependency_num = 1
 HF_NAMES = {
-    "llama_7B": "decapoda-research/llama-13b-hf",
-    "llama2_7B": "meta-llama/Llama-2-13b-hf",
-    "alpaca_7B": "circulus/alpaca-13b",
-    "vicuna_7B": "AlekseyKorshuk/vicuna-13b",
+    "llama_13B": "decapoda-research/llama-13b-hf",
+    "llama2_13B": "meta-llama/Llama-2-13b-hf",
+    "alpaca_13B": "circulus/alpaca-13b",
+    "vicuna_13B": "AlekseyKorshuk/vicuna-13b",
 }
 MODEL = HF_NAMES[llm]
 device = "cuda"

@@ -1,10 +1,10 @@
 from pollmgraph.utils.interfaces import Grid
-import numpy as np
 from sklearn.mixture import GaussianMixture
 from sklearn.cluster import KMeans as KMeansClustering
 from tqdm import tqdm
 import os
 import pickle
+import numpy as np
 
 class AbstractModel(object):
     def __init__(self):
