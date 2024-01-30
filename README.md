@@ -148,10 +148,11 @@ Metrics provide a quantitative measure to evaluate the performance and character
   preciseness_mean, preciseness_max = metrics_evaluator.preciseness()
   ```
 
----
 
 ### **Demo**
 
-    > python demo.py
-
+To run a whole PoLLMGraph(MM) pipeline
+   ```
+   python demo.py 
+   ```
 
