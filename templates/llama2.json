@@ -1,0 +1,6 @@
+{
+    "description": "Template used by Llama",
+    "prompt_input": "Instrution:\n{instruction} \n Input:\n{input} \n",
+    "prompt_no_input": "Instrution:\n{instruction} \n ",
+    "response_split": "Response:"
+}
