@@ -1,10 +1,10 @@
-from luna.state_abstraction_utils import AbstractStateExtraction
-from luna.probabilistic_abstraction_model import (
+from pollmgraph.state_abstraction_utils import AbstractStateExtraction
+from pollmgraph.probabilistic_abstraction_model import (
     HmmModel,
     DtmcModel,
 )
-from luna.abstraction_model import RegularGrid
-from luna.utils.interfaces import Grid
+from pollmgraph.abstraction_model import RegularGrid
+from pollmgraph.utils.interfaces import Grid
 
 from sklearn.metrics import pairwise_distances
 import numpy as np

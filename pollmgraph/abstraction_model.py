@@ -1,4 +1,4 @@
-from luna.utils.interfaces import Grid
+from pollmgraph.utils.interfaces import Grid
 import numpy as np
 from sklearn.mixture import GaussianMixture
 from sklearn.cluster import KMeans as KMeansClustering

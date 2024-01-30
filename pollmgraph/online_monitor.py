@@ -1,21 +1,21 @@
-from luna.state_abstraction_utils import AbstractStateExtraction
-from luna.probabilistic_abstraction_model import (
+from pollmgraph.state_abstraction_utils import AbstractStateExtraction
+from pollmgraph.probabilistic_abstraction_model import (
     HmmModel,
     DtmcModel,
 )
-from luna.utils.prompter import Prompter
-from luna.utils.ErrorWithReturn import ErrorWithReturn
+from pollmgraph.utils.prompter import Prompter
+from pollmgraph.utils.ErrorWithReturn import ErrorWithReturn
 import time
 import numpy as np
 import torch
 # from transformers import AutoTokenizer, AutoModelForCausalLM
-from luna.utils.llama import LLaMAForCausalLM, LLaMATokenizer
+from pollmgraph.utils.llama import LLaMAForCausalLM, LLaMATokenizer
 import pickle
 import os
-import luna.data_loader as data_loader
+import pollmgraph.data_loader as data_loader
 from sklearn.decomposition import PCA
-from luna.abstraction_model import GMM, KMeans, RegularGrid
-from luna.utils.probabilistic_model_checking import runtime_pmc
+from pollmgraph.abstraction_model import GMM, KMeans, RegularGrid
+from pollmgraph.utils.probabilistic_model_checking import runtime_pmc
 from tqdm import tqdm
 from sklearn import metrics
 import json
