@@ -1,6 +1,6 @@
-# from luna.utils.activation_utils import get_llama_activations_bau, get_llama_loss, get_llama_probs
-from luna.utils.prompter import Prompter
-from luna.utils.llama import LLaMAForCausalLM, LLaMATokenizer
+# from pollmgraph.utils.activation_utils import get_llama_activations_bau, get_llama_loss, get_llama_probs
+from pollmgraph.utils.prompter import Prompter
+from pollmgraph.utils.llama import LLaMAForCausalLM, LLaMATokenizer
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 import argparse
