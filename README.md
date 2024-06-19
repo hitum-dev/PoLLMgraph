@@ -156,4 +156,14 @@ To run a whole PoLLMGraph(MM) pipeline
    ```
    python demo.py 
    ```
+## BibTeX
+
+```
+@inproceedings{zhu-etal-2024-pollmgraph,
+    title = "{P}o{LLM}graph: Unraveling Hallucinations in Large Language Models via State Transition Dynamics",
+    author = "Zhu, Derui  and Chen, Dingfan  and Li, Qing  and Chen, Zongxiong  and Ma, Lei  and Grossklags, Jens  and Fritz, Mario",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    publisher = "Association for Computational Linguistics",
+}
+```
 
