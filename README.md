@@ -156,7 +156,7 @@ To run a whole PoLLMGraph(MM) pipeline
    ```
    python demo.py 
    ```
-## BibTeX
+## **Citation**
 
 ```
 @inproceedings{zhu-etal-2024-pollmgraph,
