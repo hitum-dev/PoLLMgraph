@@ -1,6 +1,6 @@
 import time
-from luna.state_abstraction_utils import AbstractStateExtraction
-from luna.probabilistic_abstraction_model import (
+from pollmgraph.state_abstraction_utils import AbstractStateExtraction
+from pollmgraph.probabilistic_abstraction_model import (
     HmmModel,
     DtmcModel,
 )
@@ -8,12 +8,12 @@ from types import SimpleNamespace
 import numpy as np
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
-from luna.utils.llama import LLaMAForCausalLM, LLaMATokenizer
+from pollmgraph.utils.llama import LLaMAForCausalLM, LLaMATokenizer
 import pickle
 import os
-import luna.data_loader as data_loader
+import pollmgraph.data_loader as data_loader
 from sklearn.decomposition import PCA
-from luna.abstraction_model import GMM, KMeans, RegularGrid
+from pollmgraph.abstraction_model import GMM, KMeans, RegularGrid
 from tqdm import tqdm
 import warnings
 warnings.filterwarnings('ignore')
